@@ -1,0 +1,19 @@
+{
+    "links":[
+        {
+            "id":1,
+            "image":"../assetes/louis-vuitton-printed-long-sleeved-shirt--HPS02WZS4MU1_PM2_Front view.webp",
+            "title":"Printed Shits",
+            "desc":"Shirts starting at",
+            "price":"$10.0"
+        },
+        {
+            "id":2,
+            "image":"/src/assetes/5-2-women-bag-transparent.png",
+            "title":"Womens Bags",
+            "desc":"Womens Bags starting at",
+            "price":"$13.0"
+        }
+
+    ]
+}

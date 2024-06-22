@@ -1,0 +1,87 @@
+.hero .containe{
+    
+    background-color:#ffedf3;
+    width: 100%;
+}
+.hero .banner{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.hero .contents{
+    width: 300px;
+}
+.hero .contents h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hero .contents p{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.hero .contents button{
+    margin-top: 50px;
+    width: 7.6rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    color:#ffff;
+    background-color:#ff5f50;
+    cursor: pointer;
+}
+.hero .contents button:active{
+  transform: scale(0.98);
+}
+.hero .card_details{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    
+}
+.hero .cards img{
+    width: 30px;
+}
+.hero .cards .details{
+    display: flex;
+    gap: 30px;
+}
+.hero .cards .texts h3{
+    font-size: 17px;
+
+}
+.hero .cards .texts p{
+    font-size: 12px;
+}
+.hero .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:80px;
+    width: 220px;
+    background-color:#ffff;
+    position: relative;
+    top:-50px;
+    
+    cursor: pointer;
+    border: 15px;
+    box-shadow: 0 12px 14px rgb(0, 0, 0, 0.3);
+}
+@media(max-width:900px){
+    .hero .containe{
+        width: 100%;
+        
+    }
+    .hero .banner{
+        flex-direction: column;
+    }
+    .hero .contents{
+        margin-top: 50px;
+    }
+    .hero .cards{
+        display: none;
+    }
+    .hero img{
+        width: 300px;
+    }
+}
